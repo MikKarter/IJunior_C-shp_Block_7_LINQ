@@ -1,0 +1,7 @@
+D:\Unity\Learning_iJunior\LINQ\7.Task_1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\Unity\Learning_iJunior\LINQ\7.Task_1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\Unity\Learning_iJunior\LINQ\7.Task_1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\Unity\Learning_iJunior\LINQ\7.Task_1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+D:\Unity\Learning_iJunior\LINQ\7.Task_1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Unity\Learning_iJunior\LINQ\7.Task_1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\Unity\Learning_iJunior\LINQ\7.Task_1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

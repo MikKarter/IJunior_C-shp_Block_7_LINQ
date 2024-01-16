@@ -1,0 +1,7 @@
+C:\Source C#\LINQ Learning\7.Task_3\7.Task_3\bin\Debug\7.Task_3.exe.config
+C:\Source C#\LINQ Learning\7.Task_3\7.Task_3\bin\Debug\7.Task_3.exe
+C:\Source C#\LINQ Learning\7.Task_3\7.Task_3\bin\Debug\7.Task_3.pdb
+C:\Source C#\LINQ Learning\7.Task_3\7.Task_3\obj\Debug\7.Task_3.csproj.AssemblyReference.cache
+C:\Source C#\LINQ Learning\7.Task_3\7.Task_3\obj\Debug\7.Task_3.csproj.CoreCompileInputs.cache
+C:\Source C#\LINQ Learning\7.Task_3\7.Task_3\obj\Debug\7.Task_3.exe
+C:\Source C#\LINQ Learning\7.Task_3\7.Task_3\obj\Debug\7.Task_3.pdb

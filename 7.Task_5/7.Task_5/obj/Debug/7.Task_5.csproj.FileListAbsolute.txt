@@ -1,0 +1,7 @@
+C:\Source C#\LINQ Learning\7.Task_5\7.Task_5\obj\Debug\7.Task_5.csproj.AssemblyReference.cache
+C:\Source C#\LINQ Learning\7.Task_5\7.Task_5\obj\Debug\7.Task_5.csproj.CoreCompileInputs.cache
+C:\Source C#\LINQ Learning\7.Task_5\7.Task_5\bin\Debug\7.Task_5.exe.config
+C:\Source C#\LINQ Learning\7.Task_5\7.Task_5\bin\Debug\7.Task_5.exe
+C:\Source C#\LINQ Learning\7.Task_5\7.Task_5\bin\Debug\7.Task_5.pdb
+C:\Source C#\LINQ Learning\7.Task_5\7.Task_5\obj\Debug\7.Task_5.exe
+C:\Source C#\LINQ Learning\7.Task_5\7.Task_5\obj\Debug\7.Task_5.pdb

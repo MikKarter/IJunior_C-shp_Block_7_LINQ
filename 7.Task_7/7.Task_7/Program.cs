@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +12,8 @@ namespace _7.Task_7
         {
             Armies armies = new Armies();
             armies.ShowSquadsInfo();
-            armies.Transfer();
+            Console.WriteLine("Введите первую букву фамилии для трансфера:");
+            armies.Transfer(Console.ReadLine());
             armies.ShowSquadsInfo();
         }
     }
@@ -34,11 +35,22 @@ namespace _7.Task_7
         }
 
 
-        public void Transfer()
-        {
-            var transferList = _firstSquad.Where(soldier => soldier.Name.StartsWith("Б"));
-            _secondSquad =_secondSquad.Union(transferList).ToList();
-            _firstSquad = _firstSquad.Except(transferList).ToList();
+        public void Transfer(string letter)
+        {       
+            if (letter.Count() > 1) 
+            {
+                Console.WriteLine("Необходимо ввести только 1 букву!");
+            }
+            else if (int.TryParse(letter, out int tempNumber))
+            {
+                Console.WriteLine("Букву, а не цифру!");
+            }   
+            else
+            {
+                var transferList = _firstSquad.Where(soldier => soldier.Name.StartsWith(letter));
+                _secondSquad = _secondSquad.Union(transferList).ToList();
+                _firstSquad = _firstSquad.Except(transferList).ToList();
+            }
         }
 
         public void ShowSquadsInfo()

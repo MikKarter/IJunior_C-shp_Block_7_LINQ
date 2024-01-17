@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +22,7 @@ namespace _7.Task_2
     {
         private string _fullName;
         private string _crimeName;
+
         public People(string fullname, char crime)
         {
             _fullName = fullname;
@@ -47,20 +48,22 @@ namespace _7.Task_2
 
     class Prison
     {
-        private List<People> _prisons = new List<People>();
+        private List<People> _prisons = new List<People>();    
+        private char _crimeTypeAntiGovernment = 'A';
+        private char _crimeTypeOther = 'B';
 
         public Prison()
         {
-            _prisons.Add(new People("Иванов Иван Иванович", 'A'));
-            _prisons.Add(new People("Петров Пётр Петрович", 'B'));
-            _prisons.Add(new People("Евгеньев Евгений Евгеньевич", 'A'));
-            _prisons.Add(new People("Фамилия Имя Отчество", 'C'));
-            _prisons.Add(new People("Сидоров Сидр Сидорович", 'A'));
+            _prisons.Add(new People("Иванов Иван Иванович", _crimeTypeAntiGovernment));
+            _prisons.Add(new People("Петров Пётр Петрович", _crimeTypeOther));
+            _prisons.Add(new People("Евгеньев Евгений Евгеньевич", _crimeTypeAntiGovernment));
+            _prisons.Add(new People("Фамилия Имя Отчество", _crimeTypeOther));
+            _prisons.Add(new People("Сидоров Сидр Сидорович", _crimeTypeAntiGovernment));
         }
 
         public void Amnistia()
         {
-           _prisons = _prisons.Where(people => people.CrimeType != 'A').ToList();
+            _prisons = _prisons.Where(people => people.CrimeType != 'A').ToList();
         }
 
         public void ShowList()

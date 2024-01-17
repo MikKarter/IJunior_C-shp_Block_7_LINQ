@@ -48,7 +48,7 @@ namespace _7.Task_2
 
     class Prison
     {
-        private List<People> _prisons = new List<People>();    
+        private List<People> _prisons = new List<People>();
         private char _crimeTypeAntiGovernment = 'A';
         private char _crimeTypeOther = 'B';
 
@@ -63,7 +63,7 @@ namespace _7.Task_2
 
         public void Amnistia()
         {
-            _prisons = _prisons.Where(people => people.CrimeType != 'A').ToList();
+            _prisons = _prisons.Where(people => people.CrimeType != _crimeTypeAntiGovernment).ToList();
         }
 
         public void ShowList()
